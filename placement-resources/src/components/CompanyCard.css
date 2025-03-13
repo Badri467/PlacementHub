@@ -1,0 +1,38 @@
+.company-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .company-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .company-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .company-header h3 {
+    color: var(--text-dark);
+    margin: 0;
+  }
+  
+  .website-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .website-link:hover {
+    text-decoration: underline;
+  }
+  
+  .company-details {
+    color: var(--text-light);
+    line-height: 1.6;
+  }
